@@ -4,9 +4,6 @@ import { fromJS, List } from 'immutable';
 //Types
 import { types } from "./types";
 
-//Instruments
-import { FILL_POSTS, CREATE_POST } from "./types";
-
 const initialState = List();
 
 export const postsReducer = (state = initialState, action) => {
