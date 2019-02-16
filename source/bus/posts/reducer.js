@@ -26,7 +26,7 @@ export const postsReducer = (state = initialState, action) => {
             return state.updateIn([state.findIndex((post) => {
                 return post.get('id') === action.payload.postId;
             }), 'likes'], (likes) => {
-                return likes.filterNot((item) => item.get("id") === action.payload.liker.get("id"));
+                return likes.filterNot((item) => item.get("id") === action.payload.userId);
             });
         default:
             return state;
