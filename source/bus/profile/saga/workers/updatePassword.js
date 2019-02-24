@@ -6,7 +6,7 @@ import { api } from '../../../../REST';
 import { uiActions } from '../../../ui/actions';
 import { profileActions } from '../../../profile/actions';
 
-export function* updateName ({ payload: {
+export function* updatePassword ({ payload: {
     oldPassword, newPassword,
 }}) {
     try {
