@@ -15,6 +15,28 @@ const userProfile = {
     token,
 };
 
+const usersList = {
+    "data": [
+        {
+            "id":        "5c595bc5cf749ff16649a03e",
+            "firstName": "Vasilii",
+            "lastName":  "Shubin",
+            "avatar":    "https://lab.lectrum.io/redux/api/image/algroktvgc9z/RwzytC7tf7.jpg",
+        },
+        {
+            "id":        "5c59b969cf749f576749a044",
+            "firstName": "Elon1",
+            "lastName":  "Musk1",
+            "avatar":    "https://lab.lectrum.io/redux/api/image/algroktvgc9z/placeholder.jpg",
+        },
+        {
+            "id":        "5c59bdd8cf749fd22149a046",
+            "firstName": "Elon",
+            "lastName":  "Musk",
+            "avatar":    "https://lab.lectrum.io/redux/api/image/algroktvgc9z/placeholder.jpg",
+        }],
+};
+
 const credentials = {
     email:    'test@email.com',
     password: '1111',
@@ -49,6 +71,7 @@ const url = 'https://www.url.com';
 
 global.__ = {
     userProfile,
+    usersList,
     errorMessage,
     token,
     error,
