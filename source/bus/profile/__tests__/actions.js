@@ -11,4 +11,13 @@ describe('profile actions: ', () => {
     test('clearProfile', () => {
         expect(profileActions.clearProfile()).toMatchSnapshot();
     });
+    test('updateNameAsync', () => {
+        expect(profileActions.updateNameAsync(__.newName)).toMatchSnapshot();
+    });
+    test('updateAvatarAsync', () => {
+        expect(profileActions.updateAvatarAsync(__.newAvatar)).toMatchSnapshot();
+    });
+    test('updatePasswordAsync', () => {
+        expect(profileActions.updatePasswordAsync(__.newPassword)).toMatchSnapshot();
+    });
 });

@@ -25,3 +25,34 @@ Object {
   "type": "UPDATE_AVATAR",
 }
 `;
+
+exports[`profile actions:  updateAvatarAsync 1`] = `
+Object {
+  "payload": Object {
+    "avatar": Array [
+      "avatar",
+    ],
+  },
+  "type": "UPDATE_AVATAR_ASYNC",
+}
+`;
+
+exports[`profile actions:  updateNameAsync 1`] = `
+Object {
+  "payload": Object {
+    "firstName": "Walter",
+    "lastName": "White",
+  },
+  "type": "UPDATE_NAME_ASYNC",
+}
+`;
+
+exports[`profile actions:  updatePasswordAsync 1`] = `
+Object {
+  "payload": Object {
+    "newPassword": 12344,
+    "oldPassword": 12345,
+  },
+  "type": "UPDATE_PASSWORD_ASYNC",
+}
+`;
