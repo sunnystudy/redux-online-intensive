@@ -15,6 +15,20 @@ const userProfile = {
     token,
 };
 
+const newName = {
+    firstName: 'Walter',
+    lastName:  'White',
+};
+
+const newAvatar = {
+    avatar: ['avatar'],
+};
+
+const newPassword = {
+    oldPassword: 12345,
+    newPassword: 12344,
+};
+
 const usersList = {
     "data": [
         {
@@ -71,6 +85,9 @@ const url = 'https://www.url.com';
 
 global.__ = {
     userProfile,
+    newName,
+    newAvatar,
+    newPassword,
     usersList,
     errorMessage,
     token,
